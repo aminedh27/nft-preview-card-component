@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+}
+
+.container {
+  background-color: hsl(217, 54%, 11%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.NFTcard {
+  background-color: hsl(216, 50%, 16%);
+  width: 380px;
+  height: 650px;
+  border-radius: 25px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 30px hsl(217, 54%, 9%);
+}
+
+.image {
+  background-image: url("../images/image-equilibrium.jpg");
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  padding-bottom: 50px;
+}
+
+.text {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text h2 {
+  padding: 20px 0;
+  color: hsl(0, 0%, 100%);
+}
+
+.text p {
+  padding-bottom: 20px;
+}
+
+.eth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth h3 {
+  margin-left: 8px;
+  color: hsl(178, 100%, 50%);
+}
+
+.eth h4 {
+  margin-left: 8px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.creation {
+  display: flex;
+  align-items: center;
+}
+
+.creation img {
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+}
