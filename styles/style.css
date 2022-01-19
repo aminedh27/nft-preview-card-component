@@ -11,7 +11,7 @@
 .container {
   background-color: hsl(217, 54%, 11%);
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,8 +20,8 @@
 
 .NFTcard {
   background-color: hsl(216, 50%, 16%);
-  width: 380px;
-  height: 650px;
+  width: 25vw;
+  height: 80vh;
   border-radius: 25px;
   padding: 30px;
   display: flex;
@@ -32,11 +32,10 @@
 
 .image {
   background-image: url("../images/image-equilibrium.jpg");
-  height: 30vh;
+  height: 50%;
   background-size: cover;
   background-position: center;
   border-radius: 25px;
-  padding-bottom: 50px;
 }
 
 .text {
@@ -47,7 +46,7 @@
 }
 
 .text h2 {
-  padding: 20px 0;
+  padding: 10px 0;
   color: hsl(0, 0%, 100%);
 }
 
