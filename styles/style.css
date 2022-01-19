@@ -108,3 +108,10 @@ span {
 hr {
   color: hsl(215, 32%, 27%);
 }
+
+@media (max-width: 768px) {
+  .NFTcard {
+    width: 70vw;
+    height: 80vh;
+  }
+}
